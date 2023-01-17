@@ -20,7 +20,9 @@ Here are some ideas to get you started:
 <h2>👨‍💻 Cybersecurity Projects:</h2>
 
 
-- [Active home directory project](google.com)
+- Power shell for Active Directory
+- Nessus tool for vulnerability scanning
+- Azure Sentinel for SIEM
  
 
 <h2>👨‍💻 Software Development Projects:</h2>
