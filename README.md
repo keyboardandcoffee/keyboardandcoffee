@@ -28,7 +28,7 @@ Here are some ideas to get you started:
 <h2>👨‍💻 Software Development Projects:</h2>
 
 - <b>Python</b>
-  - To enhance my fintech skillset, I used an AmazonWebService to host python code that can use webhooks to make automatic calls to a trading platform to open/close trades for stocks or forex pairs. 
+  - To enhance my fintech skillset, I used an Amazon Web Service to host python code that can use webhooks to make automatic calls to a trading platform to open/close trades for stocks or forex pairs. 
 
 - <b>Java</b>
   - under construction
