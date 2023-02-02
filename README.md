@@ -29,7 +29,7 @@ Here are some ideas to get you started:
 
 - <b>Python</b>
   - To enhance my fintech skillset, I used an Amazon Web Service to host python code that can use webhooks to make automatic calls to a trading platform to open/close trades for stocks or forex pairs. 
-  - [This](https://github.com/keyboardandcoffee/keyboardandcoffee/blob/main/PasswordCheck.py) is my python project to check the strength of my password and to provide suggestions to the end user to make it tougher for hackers to crack passwords.
+  - [This](https://github.com/keyboardandcoffee/keyboardandcoffee/blob/main/PasswordCheck.py) is my python project to generate a password based on certain criteria I've chosen and then allow you to copy/paste the password to check the strength of the generated password. My program generates suggestions based on passwrod strength.
 
 - <b>Java</b>
   - under construction
