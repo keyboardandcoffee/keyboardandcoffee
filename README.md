@@ -29,6 +29,7 @@ Here are some ideas to get you started:
 
 - <b>Python</b>
   - To enhance my fintech skillset, I used an Amazon Web Service to host python code that can use webhooks to make automatic calls to a trading platform to open/close trades for stocks or forex pairs. 
+  - This is my python project to check the strength of my password
 
 - <b>Java</b>
   - under construction
