@@ -6,7 +6,29 @@ Password Strength Checker
 
 import string
 import getpass
+import random
+import string
 
+# Generate a password using the ascii_letters variable which generates any combination of both upper and lower case letters, any digit
+# any punctuation and some more random characters I decided to include based on the length you prefer your password to be
+password_length = int(input("How long would you like your password to be? "))
+
+password_chars = string.ascii_letters + string.digits + string.punctuation + '@#$%^&*{}[]_'
+
+password = ''.join(random.choice(password_chars) for i in range(password_length))
+
+while not (any(char.isdigit() for char in password)
+        and any(char.isupper() for char in password)
+        and any(char.islower() for char in password)
+        and any(char in string.punctuation for char in password)):
+    password = ''.join(random.choice(password_chars) for i in range(password_length))
+
+print(password)
+
+
+# Begin a password strength checker. This will evaluate your passoword and assign a strength score and make a suggestion to the end user
+
+#NOTE: you can copy and paste the generated password, but I've hidden the visibility of the pasted password for extra protection from viewers
 
 def check_password_strength():
    password = getpass.getpass('Enter the password: ')
